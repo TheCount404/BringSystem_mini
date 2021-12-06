@@ -1,0 +1,7 @@
+
+<view wx:for="{{photoCut}}" wx:for-item="result">
+    <image src="data:image/{{result.type}};base64,{{result.base64}}" mode="aspectFit" class="AvatarUrl"></image>
+    <view>
+    {{result.keyword}}:{{result.score}}
+    </view>
+  </view>

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <button bindtap="getToExplain">查看说明</button>
+  <button bindtap="takePhoto">点此拍照</button>
+  <image src="{{photoPath}}" mode="aspectFit" class="AvatarUrl"></image>
+</view>

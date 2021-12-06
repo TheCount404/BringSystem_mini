@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="title">小程序说明</view>
+  <view class="explain">这东西是这样用的</view>
+  <button bindtap="getUserProfile">开始体验</button>
+</view>
